@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+    margin: 0;
+}
+#countdown-timer {
+    width: 200px;
+}
+#time-input {
+    box-sizing: border-box;
+    padding: 10px;
+    font-size: 16px;
+    margin: 10px 0;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+#start-timer {
+    padding: 10px 20px;
+    font-size: 16px;
+    width: 100%;
+    background-color: #28a745;
+    color: white;
+    border:#011603;
+    border-radius: 4px;
+    cursor: pointer;
+}
+#start-timer:hover {
+    background-color: #218838;
+}
+
+
+#stop-timer{
+    padding: 10px 20px;
+    font-size: 16px;
+    width: 100%;
+    background-color: #b32b21;
+    color: white;
+    border:#011603
+    border-radius: 4px;
+    cursor: pointer;
+}
+#stop-timer:hover{
+    background-color: rgb(236, 243, 243);
+}
+#timer-container {
+    margin-top: 20px;
+    font-size: 24px;
+    font-weight: bold;
+}
