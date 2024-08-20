@@ -1,0 +1,51 @@
+html, body {
+    height: 100%;
+}
+
+html {
+    display: table;
+    margin: auto;
+}
+
+body {
+    display: table-cell;
+    vertical-align: middle;
+}
+h1{
+    color: rgb(43, 82, 165);
+    
+}
+h2{
+    color: rgb(147, 212, 230);
+  
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+#input-number {
+    padding: 10px;
+    font-size: 16px;
+}
+#btn-guess {
+    padding: 10px;
+    font-size: 16px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+#new-game {
+    padding: 10px;
+    font-size: 16px;
+    background-color: #6c8197;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
