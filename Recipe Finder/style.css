@@ -1,0 +1,13 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    background-color: rgb(243, 227, 208);
+}
+
+.container {
+    width: 500px;
+    margin: 100px auto;
+}
+

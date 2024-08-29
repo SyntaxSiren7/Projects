@@ -3,7 +3,7 @@ function addTodo(task) {
     todos.push({ task: task, completed: false });
     renderTodos();
 }
-
+ 
 
 function toggleTodoCompletion(index) {
     todos[index].completed = !todos[index].completed;
